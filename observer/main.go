@@ -25,6 +25,7 @@ func main() {
 
 	laser.RemoveObserver(cat2)
 	laser.Move("Центр")
+	time.Sleep(1 * time.Second)
 }
 
 func NewCat(cat string) Observer {
